@@ -1,0 +1,28 @@
+inc - uploads(files)
+      login
+      register
+      delusr
+      dbCon
+      forgotpwd
+      addChpter
+      logOut
+      prfUpdate
+      imgUpl(images)
+      chgOffcr
+      vstCount
+      chapOff
+      chapList
+      search
+      pageChng
+      forumq
+      galleryq
+      actvtyq
+      awardsq
+      mailUs
+      accNewAdd
+      subscribe
+      session
+      docsup
+      
+      
+      

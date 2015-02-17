@@ -1,0 +1,182 @@
+/*default CSS - bootstrap overwrite*/
+
+#developers-team { color: #f3f3f3; }
+
+#history { margin-top: 30px; }
+
+#about-us-content h3, strong { text-align: center; color: #3399FF; }
+
+.modal-content { background: url('http://localhost/dpo/res/img/pattern.jpg'); color: #666; }
+
+#about-us-history, #about-us-mission-vision { margin: 30px; text-align: justify; }
+
+#founders-image img { margin: 12px; height: 300px; width: 480px; border: solid 10px #3399FF; box-shadow: 0px 0px 3px #666; }
+
+#modal-user-login input { width: 220px; height: 30px; margin: 5px; padding: 3px; } 
+
+#modal-user-login li { margin-right: 18px; }
+
+#login-logo img { width: 140px; height: 140px; float: left; margin: 10px; }
+
+body { background: #2d2d2d; }
+footer {
+	margin-top: 0px;
+	padding: 0px;
+	-moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+	-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,.3) inset;
+	color: #BBB;
+	min-height: 500px; 
+
+
+background: rgba(73,155,234,1);
+background: -moz-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+background: -webkit-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -o-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: linear-gradient(45deg, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+
+
+
+	border-top: solid 25px #3399FF; }
+footer ul,li,ol { list-style-type: none; }
+footer p,ul,li,ol { text-align: left; color: #EEE; }
+footer li { cursor: pointer; }
+footer li:hover { color: #999; }
+footer .social-links { cursor: pointer; }
+
+div {}
+table {}
+thead {}
+tbody {}
+ul {}
+ol {}
+li {}
+p {}
+strong {}
+i {}
+h1 {}
+h2 {}
+h3 {}
+h4 {}
+h5 {}
+h6 {}
+div {}
+input {}
+button {}
+textarea {}
+
+/* Special */ 
+#img { border: solid 1px #3399FF; }
+#founder-picture img:hover, #awards-list-wrapper .awardees:hover {
+	border: solid 1px #3399FF;
+	box-shadow: 0px 0px 2px #3399FF;
+	border-radius: 5px;
+
+	-webkit-transform: scale(1.01,1.01);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 320ms;
+    -moz-transform: scale(1.01,1.01);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 320ms;
+}
+/* Same attributes */
+
+/* Classes */
+.main-logo { opacity: 0.7; }
+.founder-name { color: #3399FF; margin: 3px; padding: 3px; }
+.item { max-height: 620px; z-index: -1;  }
+.item img { width:100%; z-index:; }
+.images { position: center;}
+.default-article { letter-spacing: 0.1em; text-align: justify; letter-spacing: 0.1em; font-size: 14px; font-family: sans-serif;}
+.article-titles { color: #3399FF; font-weight: bolder; }
+.cardenals { font-size: 48px; color: #3399FF; }
+.nav li { text-align: center; }
+.nav li:hover > a:hover { 
+	color: #FFF;
+	background: #3399FF;
+    -webkit-transform: scale(1.05,1.05);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 250ms;
+    -moz-transform: scale(1.05,1.05);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 250ms; }
+.snapshots { cursor: pointer; }
+.activity-thumbs img { width: 320px; height: 200px; margin: 10px; border: solid 2px #3399FF; opacity: 0.9; }
+.activity-thumbs img:hover { 
+	opacity: 1;
+	 border: solid 10px #3399FF;
+	 box-shadow: 0px 0px 2px #3399FF;
+	-webkit-transform: scale(1.02,1.02);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 280ms;
+    -moz-transform: scale(1.02,1.02);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 280ms; }
+.links { background: #fff; }
+.links-activity { background: #3399FF; }
+.links, .links-activity { text-decoration: none; color: #3399FF; text-align: center; }
+.links a, .links-activity a { text-decoration: none; color: #3399FF; height: 80px; width: 220px; }
+.links h3:hover {
+	cursor: pointer;
+	background: #3399FF; 
+	color: #FFF; 
+	-webkit-transform: scale(1.05,1.05);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 280ms;
+    -moz-transform: scale(1.05,1.05);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 280ms;
+}
+
+.wrapper { border-top: solid 1px #DDD; }
+
+.awards-title-holder { }
+.awards-title-holder img { border-radius: 80px; position: center; height: 160px; width: 160px; margin: 10px; padding: 5px; }
+.awardees { text-align: justify; }
+.awardees p { margin: 8px; padding: 10px; color: #3399FF; }
+.awardees h4 { text-align: center; color: #3399FF; font-size: 30px; }
+
+.new-events-image-wrapper img { width: 75%; height: 150px; border: solid 2px #fff; margin-top: 18px; }
+
+.info-headings { color: #FFF; font-size: 18px; font-style: Verdana; }
+.social-links { float: left; }
+.social-links img { width: 80px; height: 120px; margin: 1px; padding: 2px; display: inline-block;}
+.info-wrapper { margin-top: 30px; margin-bottom: 30px; }
+
+
+/* Id */
+#carousel-wrapper { box-shadow: 0px 0px 3px #444; }
+#header-holder { position: fixed; z-index: 9999; margin-left: auto; margin-right: auto; width: 100%; box-shadow: 0px 0px 3px #444; }
+#AnnivcountdownTimer h1 { color: #FFF; text-align: center; font-size: 80px; }
+#AnnivcountdownTimer { text-align: center; color: #FFF; font-weight: thin; font-family: Lucida Sans; padding: 15px; }
+#headlines-container { background: #3399FF; min-height: 640px; box-shadow: 0px 0px 3px #666; }
+#site-holder { background: #FFF; border-top: solid 30px #FFF; }
+#brand-name { color: #3399FF; font-weight: bolder; }
+#about-us h1, #activities-section h1, #members-awards h1 { font-size: 72px; letter-spacing: 0.1em;}
+#logo-container img { height: 320px; width: 320px;}
+#founders-members-messages { height: auto; width: auto; border-top: solid 1px #DDD; }
+#founder-picture img { width: 200px; height: 200px; box-shadow: 10px #AAA; }
+#founders-members i { margin: 10px; padding: 10px; }
+/*#founders-members-messages, #activities-holder, #activities-section { margin-top: 38px; }*/
+#article-titles { position: center; }
+#greetings-holder { margin-top: 60px; padding: 5px; }
+#greetings-holder h2 { width: 340px; position: center; color: #3399FF; margin: 18px; }
+#activities-section { color: #3399FF; min-height: 760px;  box-shadow: 10px; background: #FFF; }
+#more { height: 40px; width: 220px; text-align: center; margin-left: auto; margin-right: auto; }
+#more-activities { margin: 13px; padding: 5px; text-decoration: none; margin-bottom: 18px;  }
+#texture { opacity: 0.7; }
+#previous, #next { float: right; width: 180px; height: 40px; text-align: center; }
+
+#members-awards { min-height: 700px; background: #FFF; box-shadow: 0px 0px 3px #666; }
+#awards-list { border-left: solid 1px #DDD; }
+#awards-list-wrapper { margin-top: 50px; }
+#local-events-preview { color: #FFF; text-align: justify; }
+
+#more-activity-local {  height: 40px; width: 220px;  text-decoration: none; margin-left: auto; margin-right: auto; background: #fff; }
+#more-activities-local { padding: 5px; margin: 13px; }
+#local-events { margin-top: 0px; }
+
+/*Downloaded CSS*/
