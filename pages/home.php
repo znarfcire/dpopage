@@ -11,6 +11,8 @@ New updates and fixes here
 	include_once('inc/query/dbcon.php');
 	include_once('inc/query/countdown.php'); 
 	include_once('inc/query/actvtyq.php');
+	include_once('inc/query/awardsq.php');
+	include_once('inc/page/chaplist.php');
 ?>
 <html lang="en">
 	<head>
@@ -22,9 +24,9 @@ New updates and fixes here
     	<meta name="deltapiomega" content="Delta Pi Omega official website, members, articles, about">
    		<meta name="ryanmationg" content="dolphins developers">
     <!-- CSS links -->
-		<link rel="stylesheet" type="text/css" href="http://localhost/dpo/res/css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="http://localhost/dpo/res/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="http://localhost/dpo/res/css/default.css">
+		<link rel="stylesheet" type="text/css" href="http://localhost/dpo_github/dpopage/res/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="http://localhost/dpo_github/dpopage/res/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="http://localhost/dpo_github/dpopage/res/css/default.css">
 	</head>
 	<body>
 	<div>
@@ -81,23 +83,23 @@ New updates and fixes here
 			  <!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox" id="carousel-wrapper">
 				<div class="item active">
-					<img class="images" src="http://localhost/dpo/res/img/home.jpg" alt="Dolphins">
+					<img class="images" src="http://localhost/dpo_github/dpopage/res/img/home.jpg" alt="Dolphins">
 			    	<div class="carousel-caption">
-			    	<div id="logo-container"><img src="http://localhost/dpo/res/img/logo.png" class="main-logo"></div>
+			    	<div id="logo-container"><img src="http://localhost/dpo_github/dpopage/res/img/logo.png" class="main-logo"></div>
 			    	<p><strong class="cardenals">SERVICE</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
 			      </div>
 			    </div>
 			    <div class="item">
-			      <img class="images" src="http://localhost/dpo/res/img/home.jpg" alt="Dolphins">
+			      <img class="images" src="http://localhost/dpo_github/dpopage/res/img/home.jpg" alt="Dolphins">
 			      <div class="carousel-caption">
-			      <div id="logo-container"><img src="http://localhost/dpo/res/img/logo.png" class="main-logo"></div>
+			      <div id="logo-container"><img src="http://localhost/dpo_github/dpopage/res/img/logo.png" class="main-logo"></div>
 			      	<p><strong class="cardenals">UNITY</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
 			      </div>
 			    </div>
 			    <div class="item">
-			      <img class="images" src="http://localhost/dpo/res/img/home.jpg" alt="Dolphins">
+			      <img class="images" src="http://localhost/dpo_github/dpopage/res/img/home.jpg" alt="Dolphins">
 			      <div class="carousel-caption">
-			      <div id="logo-container"><img src="http://localhost/dpo/res/img/logo.png" class="main-logo"></div>
+			      <div id="logo-container"><img src="http://localhost/dpo_github/dpopage/res/img/logo.png" class="main-logo"></div>
 			      	<p><strong class="cardenals">LEADERSHIP</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
 			      </div>
 			    </div>
@@ -131,7 +133,7 @@ New updates and fixes here
       						</div>
 
       						<div id="login-logo">
-      							<img src="http://localhost/dpo/res/img/logo.png">
+      							<img src="http://localhost/dpo_github/dpopage/res/img/logo.png">
       						</div>
 
       						<div class="modal-body" id="modal-user-login">
@@ -170,7 +172,7 @@ New updates and fixes here
                             		<h3>Delta Pi Omega Founders</h3>
                             	</header>
                             	<div id="founders-image" align="center">
-                            		<img src="http://localhost/dpo/res/img/demo.jpg">
+                            		<img src="http://localhost/dpo_github/dpopage/res/img/demo.jpg">
                             	</div>
     							<header>
     								<h3>Our History</h3>
@@ -225,7 +227,7 @@ New updates and fixes here
 			<div id="greetings-holder">
 				<div class="col-lg-4">
 					<div align="center" id="founder-picture">
-						<img id="img" src="http://localhost/dpo/res/img/demo.jpg">
+						<img id="img" src="http://localhost/dpo_github/dpopage/res/img/demo.jpg">
 						<p class="founder-name"><strong>Grasco Oscar Olila</strong></p>
 					</div>
 				</div>
@@ -261,7 +263,7 @@ New updates and fixes here
 					<div class="row-lg-2">
 
 					<?php 
-					activitiesPreview(); 
+					activitiesPreview('0','0','0'); 
 					?>
 
 					</div>
@@ -289,7 +291,7 @@ New updates and fixes here
             		<div id="local-events">
         				<div class="col-lg-4">
         					<div class="new-events-image-wrapper" align="center">
-        						<img src="http://localhost/dpo/res/img/demo.jpg" />
+        						<img src="http://localhost/dpo_github/dpopage/res/img/demo.jpg" />
         					</div>
         					<div class="">
         						<p>ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -297,7 +299,7 @@ New updates and fixes here
         				</div>
         				<div class="col-lg-4">
         					<div class="new-events-image-wrapper" align="center">
-        						<img src="http://localhost/dpo/res/img/demo.jpg" />
+        						<img src="http://localhost/dpo_github/dpopage/res/img/demo.jpg" />
         					</div>
         					<div class="">
         						<p>ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -305,7 +307,7 @@ New updates and fixes here
         				</div>
         				<div class="col-lg-4">
         					<div class="new-events-image-wrapper" align="center">
-        						<img src="http://localhost/dpo/res/img/demo.jpg" />
+        						<img src="http://localhost/dpo_github/dpopage/res/img/demo.jpg" />
         					</div>
         					<div class="">
         						<p>ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -332,7 +334,7 @@ New updates and fixes here
 								<h4>Awardee 1</h4>
 							</div>
 							<div class="awards-title-holder" align="center">
-								<img src="http://localhost/dpo/res/img/demo.jpg">
+								<img src="http://localhost/dpo_github/dpopage/res/img/demo.jpg">
 							</div>
 							<p>ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 						</div>
@@ -341,7 +343,7 @@ New updates and fixes here
 						<div class="awardees"> 
 							<h4>Awardee 2</h4>
 							<div class="awards-title-holder" align="center">
-								<img src="http://localhost/dpo/res/img/demo.jpg">
+								<img src="http://localhost/dpo_github/dpopage/res/img/demo.jpg">
 							</div>
 							<p>ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 						</div>
@@ -350,7 +352,7 @@ New updates and fixes here
 						<div class="awardees">
 							<h4>Awardee 3</h4>
 							<div class="awards-title-holder" align="center">
-								<img src="http://localhost/dpo/res/img/demo.jpg">
+								<img src="http://localhost/dpo_github/dpopage/res/img/demo.jpg">
 							</div>
 							<p>ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 						</div>
@@ -359,7 +361,7 @@ New updates and fixes here
 						<div class="awardees">
 							<h4>Awardee 4</h4>
 							<div class="awards-title-holder" align="center">
-								<img src="http://localhost/dpo/res/img/demo.jpg">
+								<img src="http://localhost/dpo_github/dpopage/res/img/demo.jpg">
 							</div>
 							<p>ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 						</div>
@@ -370,9 +372,9 @@ New updates and fixes here
 	<!-- Javascripts -->
 		<!--script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script-->
 
-		<script type="text/javascript" src="http://localhost/dpo/res/js/jquery-2.1.3.min.js" ></script>
+		<script type="text/javascript" src="http://localhost/dpo_github/dpopage/res/js/jquery-2.1.3.min.js" ></script>
 		<!--script type="text/javascript" src="http://localhost/dpo/res/js/bootstrap.js" ></script-->
-		<script type="text/javascript" src="http://localhost/dpo/res/js/bootstrap.min.js" ></script>
+		<script type="text/javascript" src="http://localhost/dpo_github/dpopage/res/js/bootstrap.min.js" ></script>
 		<!--script type="text/javascript" src="http://localhost/dpo/res/js/npm.js" ></script-->
 		<script type="text/javascript">
 			
@@ -408,30 +410,17 @@ New updates and fixes here
 					<div class="col-lg-3">
 						<h5 class="info-headings">Chapters</h5>
 						<ul>
-							<li>Aklan Chapter</li>
-							<li>Aklan Chapter</li>
-							<li>Aklan Chapter</li>
-							<li>Aklan Chapter</li>
-							<li>Aklan Chapter</li>
-							<li>Aklan Chapter</li>
-							<li>Aklan Chapter</li>
-							<li>Aklan Chapter</li>
+						<?php viewChapters(); ?>
 						</ul>
 					</div>
 					<div class="col-lg-3">
 						<h5 class="info-headings">Activities</h5>
 						<ul>
-							<li>Aklan Chapter</li>
-							<li>Aklan Chapter</li>
-							<li>Aklan Chapter</li>
-							<li>Aklan Chapter</li>
+						<?php activitiesPreview('1','0','0'); ?>
 						</ul>
 						<h5 class="info-headings">Awards</h5>
 						<ul>
-							<li>Aklan Chapter</li>
-							<li>Aklan Chapter</li>
-							<li>Aklan Chapter</li>
-							<li>Aklan Chapter</li>
+						<?php awardsView('1','0','0'); ?>
 						</ul>
 					</div>
 					<div class="col-lg-3">
@@ -457,13 +446,13 @@ New updates and fixes here
 						<p><i class="icon-user"></i> Email: dpoweb@yahoo.com</p>
 						<h5 class="info-headings">We Socialize</h5>
 						<div class="social-links">
-							<a><img id="facebook" src="http://localhost/dpo/res/img/ico/facebook-ico.png"></a>
+							<a><img id="facebook" src="http://localhost/dpo_github/dpopage/res/img/ico/facebook-ico.png"></a>
 						</div>
 						<div class="social-links">
 							<a href="https://www.youtube.com/watch?v=_x5Xja7dOdc" target="_blank"><img id="youtube" src="http://localhost/dpo/res/img/ico/youtube-ico.png"></a>
 						</div>
 						<div class="social-links">
-							<a><img id="instagram" src="http://localhost/dpo/res/img/ico/instagram-ico.png"></a>
+							<a><img id="instagram" src="http://localhost/dpo_github/dpopage/res/img/ico/instagram-ico.png"></a>
 						</div>
 					</div>
 				</div>

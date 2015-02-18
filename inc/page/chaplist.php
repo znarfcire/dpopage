@@ -1,4 +1,4 @@
-//list Chapters
+<!-- //list Chapters
 //coded by:
 //date:
 
@@ -6,7 +6,7 @@
 
 //
 // New updates and fixes here
-//
+// -->
 
 <?php
 function viewChapters() {
@@ -16,7 +16,7 @@ function viewChapters() {
 	while ($row = mysql_fetch_array($result)) {
 		$a = $row['chapters'];
 		$b = $row['descriptions'];
-		echo '<a href="chapters.php?c='.$a.'" target="_blank"><p class="chapters">'.$b.'</p></a>';
+		echo '<li>'.$b.'</li>';
 	}
 }
 ?>
