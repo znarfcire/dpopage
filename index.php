@@ -11,5 +11,4 @@
 	
 
 	include_once 'pages/home.php';
-
 ?>

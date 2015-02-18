@@ -1,23 +1,4 @@
 /*default CSS - bootstrap overwrite*/
-
-#developers-team { color: #f3f3f3; }
-
-#history { margin-top: 30px; }
-
-#about-us-content h3, strong { text-align: center; color: #3399FF; }
-
-.modal-content { background: url('http://localhost/dpo/res/img/pattern.jpg'); color: #666; }
-
-#about-us-history, #about-us-mission-vision { margin: 30px; text-align: justify; }
-
-#founders-image img { margin: 12px; height: 300px; width: 480px; border: solid 10px #3399FF; box-shadow: 0px 0px 3px #666; }
-
-#modal-user-login input { width: 220px; height: 30px; margin: 5px; padding: 3px; } 
-
-#modal-user-login li { margin-right: 18px; }
-
-#login-logo img { width: 140px; height: 140px; float: left; margin: 10px; }
-
 body { background: #2d2d2d; }
 footer {
 	margin-top: 0px;
@@ -178,5 +159,23 @@ textarea {}
 #more-activity-local {  height: 40px; width: 220px;  text-decoration: none; margin-left: auto; margin-right: auto; background: #fff; }
 #more-activities-local { padding: 5px; margin: 13px; }
 #local-events { margin-top: 0px; }
+
+#developers-team { color: #f3f3f3; }
+
+#history { margin-top: 30px; }
+
+#about-us-content h3, strong { text-align: center; color: #3399FF; }
+
+.modal-content { background: url('http://localhost/dpo/res/img/pattern.jpg'); color: #666; }
+
+#about-us-history, #about-us-mission-vision { margin: 30px; text-align: justify; }
+
+#founders-image img { margin: 12px; height: 300px; width: 480px; border: solid 10px #3399FF; box-shadow: 0px 0px 3px #666; }
+
+#modal-user-login input { width: 220px; height: 30px; margin: 5px; padding: 3px; } 
+
+#modal-user-login li { margin-right: 18px; }
+
+#login-logo img { width: 140px; height: 140px; float: left; margin: 10px; }
 
 /*Downloaded CSS*/

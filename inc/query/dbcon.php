@@ -8,7 +8,7 @@ New updates and fixes here -->
 
 <?php
 $username 	= "root"; 
-$password 	= ""; 
+$password 	= "r00t3r"; 
 $hostname 	= "localhost"; 
 $databasename = 'dpodata';
 //1. create database connection

@@ -7,12 +7,11 @@ last update:
 
 New updates and fixes here
 -->
-<?php 
-include_once("inc/query/dbcon.php");
-include_once('inc/query/countdown.php'); 
-require_once('inc/query/actvtyq.php');
+<?php
+	include_once('inc/query/dbcon.php');
+	include_once('inc/query/countdown.php'); 
+	include_once('inc/query/actvtyq.php');
 ?>
-
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
